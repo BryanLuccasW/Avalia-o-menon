@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php+form</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Atividade Avaliativa</h1>
+    <div class="pcentral">
+        <form action="php/abs.php" method="get">
+            <fieldset>
+                <legend><b>funcao abs</b></legend>
+                <p>Retorna um valor absoluto de um número. Esse valor é o número sem o seu sinal.</p>
+                <label>Informe o valor para retornar o seu número real.</label><br>
+                <input type="number" name="abs" id="idadejs"><br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <div class="pcentral1">
+        <form action="php/hip.php" method="get">
+            <fieldset>
+                <legend><b>Função Hipotenusa</b></legend>
+                <p>O teorema de Pitágoras diz que o quadrado da Hipotenusa é igual à soma dos quadrados dos catetos.
+                    a2 = b2 + c2 onde: a é hipotenusa, b cateto1 e c cateto2</p>
+                    <label>Informe cateto1</label><br>
+                    <input type="number" name="cat1" id="idadejs">
+                    <br><br>
+                    <label> Informe cateto2</label><br>
+                    <input type="number" name="cat2" id="idadejs">
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <div class="pcentral2">
+        <form action="php/baseconvert.php" method="get">
+            <fieldset>
+                <legend><b>Função Base Convert</b></legend>
+                <p>A função <strong>Base Convert</strong> converte um número representado em uma base numérica para outra base numérica.</p>
+                <label>Informe o número</label>
+                <input type="number" name="valorinicial" id="funcaojs">
+                <br><br>
+                <label>Informe a base de Origem</label>
+                <input type="number" name="basen" id="funcaojs">
+                <br><br>
+                <label>Informe a Base do Destino</label>
+                <input type="number" name="baseconvert" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
