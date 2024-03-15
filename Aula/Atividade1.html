@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php+form</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Atividade Avaliativa</h1>
+    <div class="pcentral">
+        <form action="php/abs.php" method="get">
+            <fieldset>
+                <legend><b>funcao abs</b></legend>
+                <p>Retorna um valor absoluto de um número. Esse valor é o número sem o seu sinal.</p>
+                <label>Informe o valor para retornar o seu número real.</label><br>
+                <input type="number" name="abs" id="idadejs"><br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <div class="pcentral1">
+        <form action="php/hip.php" method="get">
+            <fieldset>
+                <legend><b>Função Hipotenusa</b></legend>
+                <p>O teorema de Pitágoras diz que o quadrado da Hipotenusa é igual à soma dos quadrados dos catetos.
+                    a2 = b2 + c2 onde: a é hipotenusa, b cateto1 e c cateto2</p>
+                    <label>Informe cateto1</label><br>
+                    <input type="number" name="cat1" id="idadejs">
+                    <br><br>
+                    <label> Informe cateto2</label><br>
+                    <input type="number" name="cat2" id="idadejs">
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <div class="pcentral2">
+        <form action="php/baseconvert.php" method="get">
+            <fieldset>
+                <legend><b>Função Base Convert</b></legend>
+                <p>A função <strong>Base Convert</strong> converte um número representado em uma base numérica para outra base numérica.</p>
+                <label>Informe o número</label>
+                <input type="number" name="valorinicial" id="funcaojs">
+                <br><br>
+                <label>Informe a base de Origem</label>
+                <input type="number" name="basen" id="funcaojs">
+                <br><br>
+                <label>Informe a Base do Destino</label>
+                <input type="number" name="baseconvert" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <div class="pcentral3">
+        <form action="php/cos.php" method="get">
+            <fieldset>
+                <legend><b>Função Cosseno</b></legend>
+                <p>O cosseno de um ângulo é a razão entre a medida do cateto adjacente e a medida da hipotenusa.</p>
+                <label>Inforrme o ângulo</label>
+                <input type="number" name="angulo" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <div class="pcentral4">
+        <form action="php/intdiv.php" method="get">
+            <fieldset>
+                <legend><b>Função Divisão de Inteiros</b></legend>
+                <p>Para multiplicar ou dividir números inteiros, a princípio, as operações devem ser realizadas considerando apenas seus valores.</p>
+                <label>Informe o Número 1</label>
+                <input type="number" name="num1" id="funcaojs">
+                <br><br>
+                <label>Informe o Número 2</label>
+                <input type="number" name="num2" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <div class="pcentral5">
+        <form action="php/min.php" method="get">
+            <fieldset>
+                <legend><b>Função Min</b></legend>
+                <p>retorna o valor do parâmetro considerado "mais baixo" de acordo com comparações padrão</p>
+                <label>Informe qualquer valor comparável:</label>
+                <input type="number" name="value" id="funcaojs">
+                <br><br>
+                <label>Informe qualquer valor comparável:</label>
+                <input type="number" name="values" id="funcaojs">
+                <br><br>
+                <label>Informe um conjunto contendo os valores:</label>
+                <input type="number" name="value_array" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <div class="pcentral6">
+        <form action="php/max.php" method="get">
+            <fieldset>
+                <legend><b>Função Max</b></legend>
+                <p>Retorna o valor do parâmetro considerado o "maior" de acordo com as comparações padrões</p>
+                <label>Informe qualquer valor comparável</label>
+                <input type="number" name="valuemax" id="funcaojs">
+                <br><br>
+                <label>Informe quaisquer valores comparáveis</label>
+                <input type="number" name="valuesmax" id="funcaojs">
+                <br><br>
+                <label>Informe um conjunto contendo os valores</label>
+                <input type="number" name="value_arraymax" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <div class="pi">
+        <form action="php/pi.php">
+            <fieldset>
+                <legend><b>Função Pi</b></legend>
+                <p>Retorna uma aproximação de pi. Alternativamente, pode-se usar a constante M_PI que fornece resultado idêntico a pi().</p>
+                <label>Valor de pi: </label>
+                <input type="number" name="pi" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <br><br>
+    <div class="pow">
+        <form action="php/pow.php" method="get">
+            <fieldset>
+                <legend><b>Função Pow</b></legend>
+                <p> A função Math. pow() retorna a base elevada ao expoente, ou seja, base expoente.</p>
+                <label>Informe a base a ser usada:</label> <br>
+                <input type="number" name="basepow" id="funcaojs">
+                <br><br>
+                <label>Informe o expoente:</label> <br>
+                <input type="number" name="expoente" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+      </div>
+      <br><br>
+      <div class="sin">
+        <form action="php/sin.php" method="get">
+            <fieldset>
+                <legend><b>Função SIN</b></legend>
+                <p> A função Sin usa um ângulo e retorna a proporção de dois lados de um triângulo direito.</p>
+                <label>Informe o valor em radianos:</label> <br>
+                <input type="number" name="numsin" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+      </div>
+      <br><br>
+      <div class="sqrt">
+        <form action="php/sqrt.php" method="get">
+            <fieldset>
+                <legend><b>Função SQRT</b></legend>
+                <p> A função Math. sqrt() retorna a raiz quadrada de um número ( x ) .</p>
+                <label>Informe o argumento para processar:</label> <br>
+                <input type="number" name="numsqrt" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+      </div>
+          
+      <br><br>
+    
+      <div class="tan">
+        <form action="php/tan.php" method="get">
+            <fieldset>
+                <legend><b>Função TAN</b></legend>
+                <p> Retorna a tangente de um determinado ângulo.É a relação do cateto oposto com o cateto adjacente, ou seja: tg θ = cateto oposto/cateto adjacente.</p>
+                <label>Informe o argumento para processar em radianos:</label> <br>
+                <input type="number " name="numtan" id="funcaojs">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+      </div>
+
+</body>
+</html>
